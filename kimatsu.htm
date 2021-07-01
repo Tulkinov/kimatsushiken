@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+	<title>基本的なタグの種類について</title>
+	<style>
+		body{
+			background-color: lemonchiffon;
+		}
+		h1{
+			color: green;
+			text-align: center;
+		}
+		h2{
+			border-bottom: solid 1px green;
+			border-left: solid 10px green;
+			font-size: 1.3em;
+			padding-left: 10px;
+		}
+		p{
+			padding: 0 25px;
+		}
+		a{
+			background-color: green;
+			color: white;
+			border-radius: 10px;
+			padding: 5px 10px;
+			
+		
+		}
+		.container{
+			width: 650px;
+			background-color: white;
+			justify-content: center;
+			padding-top: 10px;
+		}
+		.arts{
+			float: left;
+			text-align: center;
+			margin: 10px;
+		}
+		.abc{
+			display: flex;
+			justify-content: center;
+			margin-top: 10px;
+		}
+		.gog{
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<!-- <div class="abc"> -->
+			<img src="images/foot2.png" alt="アーツカレッジのロゴ" class="arts">
+			<h1>基本的なタグの種類について</h1>
+		<!-- </div> -->
+		<h2>要素とは</h2>
+		<p>
+			Webページを作る段落（だんらく）や見出し、表などWebページを構成（こうせい）
+			する単位（たんい）を要素（ようそ）といいます。
+		</p>
+		<img src="images/course01.jpg" alt="course01"><br>
+		<img src="images/license12.jpg" alt="license12">
+		<h2>タグとは</h2>
+		<p>
+			要素を書くとき入力する記号（きごう）です。<br>
+			開始タグと終了タグがあります。この間には内容（ないよう）を入力します。<br>
+			また終了タグは、要素名の前に「/（スラッシュ）」を記述します。
+		</p>
+		<h2>属性とは</h2>
+		<p>
+			要素に追加できる詳しい設定のことです。<br>
+			開始タグの要素の後に書き、属性（ぞくせい）の前には、半角スペースをいれる、また属性の後ろは値をダブルクォーテーションで囲み入力します。
+		</p>
+		<h2>空要素とは</h2>
+		<p>
+			終了タグがない要素のことです。
+		</p>
+		<div class="gog"><a href="https://www.google.co.jp" target="blank">googleへ</a></div>
+	</div>
+</body>
+</html>
